@@ -1,0 +1,23 @@
+.pagination
+  border $border-thin $color-light-gray
+  border-radius ($border-radius-initial - 15px)
+  display inline-block
+  margin $size-medium 0
+
+  li
+    border-right $border-thin $color-light-gray
+
+    &:last-child
+      border-right none
+
+  a:hover
+  button:hover
+    background none !important
+
+  &-previous a::before
+  &-previous.disabled::before
+    margin-right 0 !important
+
+  &-next a::after
+  &-next.disabled::after
+    margin-left 0 !important

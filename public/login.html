@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>E-commerce J.A</title>
+  <link rel="stylesheet" href="build/css/style.css">
+  <link rel="stylesheet" href="build/css/foundation.min.css">
+  <link rel="stylesheet" href="build/icons/foundation-icons.css">
+  <script src="build/js/script.min.js"></script>
+</head>
+
+<body>
+  <div class="grid-container">
+    <!-- HEADER -->
+    <header>
+      <div class="grid-x grid-padding-x padding-top-1 padding-bottom-1">
+        <div class="large-12 cell">
+          <!-- row -->
+          <div class="grid-x grid-padding-x">
+            <div class="small-12 cell">
+              <nav class="hide-for-small-only margin-bottom-1">
+                <ul class="vertical medium-horizontal align-center menu menu__top">
+                  <li><a href="#">Customer Care</a></li>
+                  <li><a href="#">Today's offer</a></li>
+                  <li><a href="#">Download app</a></li>
+                  <li><a href="#">Advertise</a></li>
+                  <li><a href="product-register.html">Sell Product</a></li>
+                  <li><a href="#">Track Order</a></li>
+                  <li><a href="#">Gift Cards</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+              </nav>
+              <nav class="show-for-small-only">
+                <ul class="menu menu--white" data-responsive-menu="accordion medium-dropdown">
+                  <li><a href="#">Categorias</a>
+                    <ul class="vertical menu">
+                      <li><a href="#">Customer Care</a></li>
+                      <li><a href="#">Today's offer</a></li>
+                      <li><a href="#">Download app</a></li>
+                      <li><a href="#">Advertise</a></li>
+                      <li><a href="product-register.html">Sell Product</a></li>
+                      <li><a href="#">Track Order</a></li>
+                      <li><a href="#">Gift Cards</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="signup.html">Sign Up</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div><!-- row -->
+          <!-- row -->
+          <div class="grid-x grid-padding-x align-bottom text-center margin-bottom-1">
+            <div class="medium-2 small-12 cell margin-top-1"><a class="logo" href="index.html"><span
+                  class="logo__text">J.A</span></a></div>
+            <div class="medium-8 small-12 cell">
+              <form action="#" method="GET" role="search" class="search"><input class="small-12" type="text"
+                  placeholder="Faça aqui sua busca" maxlength="120" data-autofocus="true" autocomplete="on"> <button
+                  class="small-12 button button--large show-for-small-only" type="submit"
+                  onclick="location.href='search-product.html'"><span>Buscar</span></button></form>
+            </div>
+            <div class="medium-2 small-12 cell"><button class="button button--large" type="button" name="Cart Items"
+                onclick="location.href='cart.html'"><i class="step fi-shopping-cart size-14"></i> Cart items</button>
+            </div>
+          </div><!-- row -->
+          <!-- row -->
+          <div class="grid-x grid-padding-x">
+            <div class="large-2 medium-3 small-12 cell margin-bottom-1">
+              <nav>
+                <ul class="menu menu__bottom vertical medium-horizontal"
+                  data-responsive-menu="accordion medium-dropdown">
+                  <li><a href="#">Categorias</a>
+                    <ul class="vertical menu">
+                      <li><a href="search-product.html?brinquedos">Brinquedos</a></li>
+                      <li><a href="search-product.html?casa">Casa</a></li>
+                      <li><a href="search-product.html?livros">Livros</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="large-8 medium-6 small-12 cell margin-bottom-1">
+              <nav>
+                <ul class="menu menu__bottom vertical medium-horizontal align-center">
+                  <li><a href="">Ofertas da Semana</a></li>
+                  <li><a href="">Seu Histórico</a></li>
+                  <li><a href="">Suas Compras</a></li>
+                  <li><a href="product-register.html">Vender</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="large-2 medium-3 small-12 cell"><button class="button button--large" type="button" name="Login"
+                onclick="location.href='login.html'">Login</button></div>
+          </div><!-- row -->
+        </div>
+      </div>
+    </header><!-- /HEADER -->
+    <!-- CONTAINER LOGIN -->
+    <article class="page__login margin-top-2 margin-bottom-2 bordered">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>Login</h1>
+          <form action="#"><label>E-mail ou telefone</label> <input type="text"> <label>Senha <a href="#"
+                class="float-right">Esqueci a senha</a> <input type="password" id="password"
+                aria-describedby="Insira sua senha aqui" required> <span class="form-error">Senha
+                requerida</span></label> <button class="button button_principal button--large">Entrar</button> <span
+              class="text-center display-block padding-bottom-1">–––––––––– Qual a novidade? –––––––––– </span><button
+              type="submit" class="button button--large" onclick="location.href='signup.html'">Se cadastrar</button>
+          </form>
+        </div>
+      </div>
+    </article><!-- CONTAINER LOGIN -->
+  </div>
+  <script src="build/js/vendor/jquery.js"></script>
+  <script src="build/js/vendor/what-input.js"></script>
+  <script src="build/js/vendor/foundation.min.js"></script>
+  <script src="build/js/app.js"></script>
+</body>
+
+</html>

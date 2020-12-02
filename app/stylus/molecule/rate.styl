@@ -1,0 +1,27 @@
+.rating-block
+  display flex
+  align-items center
+
+  &-rating
+    display flex
+    margin-left $size-small
+    margin-top ($size-small / 2)
+
+    &.is-voted .star polygon
+      fill $color-alert
+
+    &.is-voted .star.selected ~ .star polygon
+      fill transparent
+
+    .star.selected polygon
+      fill $color-alert
+
+.star
+  cursor pointer
+  stroke $color-alert
+  display inline
+  margin-right ($size-small / 2)
+
+  svg
+    height $size-medium
+    width $size-medium
